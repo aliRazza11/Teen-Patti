@@ -1,0 +1,36 @@
+.sampleHomePage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('C:\Users\Admin\OneDrive\Desktop\CS300\Assignments\A3\MyGame\frontend\src\components\Assets\Images\img.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.sampleMessage{
+    top:25%;
+    position: absolute;
+    left: 39%;
+}
+.sampleTitle{
+    position: absolute;
+    left:42%;
+    font-size:45px;
+    color: white;
+
+}
+.sampleInput {
+    width: 300px;
+    height: 25px;
+}
+.sampleButton{
+    position: absolute;
+    left: 31%;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: large;
+}

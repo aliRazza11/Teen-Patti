@@ -1,0 +1,45 @@
+.loadingPage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black
+
+}
+.loadingMsg{
+    position: absolute;
+    left:33%;
+    top: 40%;
+    font-size:45px;
+    font-weight: bold;
+    color: red;
+
+}
+.loadingDots {
+    position: absolute;
+    left: 47%;
+    top: 55%;
+    display: inline-block;
+    font-size: 50px;
+    animation: loadingDotsAnimation 2s infinite;
+}
+
+@keyframes loadingDotsAnimation {
+    0% {
+        color: red;
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        color: red;
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        color: red;
+        opacity: 0;
+        transform: scale(0);
+    }
+
+}
